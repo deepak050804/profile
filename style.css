@@ -14,7 +14,7 @@ line-height: 50px
 background-colour: #eee;
 }
 header * {
-display: inli8ne;
+display: inline;
 height: 50px;
 }
 header ul {
@@ -23,17 +23,17 @@ padding: 0;
 header li {
 margin-left: 20px;
 }
-seaction {
+section {
 height: 100vh;
 border: 1px solid black;
 display: flex;
 justify-content: center;
 allign-items: center;
 text-aligin: center;
-background-size: cover; /* Add this line */
-background-position: center center; /* Add this line */
-background-repeat: no-repeat; /* Add this line */
-background-attachement: fixed; /* Add this line */
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachement: fixed;
 }
 #hero .profile-img {
 width: 300px;
@@ -52,7 +52,6 @@ header a {
 text-decoration: none;
 colour: black;
 }
-/* Add everything below here */
 #hero {
 background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
 }
